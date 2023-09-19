@@ -1,0 +1,69 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #33FFB3;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #7CFF33;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	border-style: dotted;
+	border-color: red;
+	border-width: 4px;
+}
+
+/* Section styles */
+section {
+    margin-bottom: 20px;
+}
+
+/* Heading styles */
+h1, h2 {
+    color: #333;
+}
+
+/* List styles */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Image styles */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+a{
+	text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+img:hover {
+  filter: blur(0);
+}
